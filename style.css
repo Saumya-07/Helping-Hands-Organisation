@@ -101,7 +101,7 @@ nav{
 }
 .section1{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     margin-bottom: 100px;
 }
@@ -149,6 +149,7 @@ nav{
 .section1-right img{
     width: 700px;
     padding-top: 90px;
+    margin-left: 50px;
 }
 
 .about{
