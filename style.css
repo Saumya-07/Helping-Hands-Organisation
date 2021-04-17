@@ -36,6 +36,7 @@ header{
 }
 li{
     list-style: none;
+    margin: 0px 10px;
 }
 
 /* navbar */
@@ -73,7 +74,7 @@ nav{
 }
 .slide{
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .slide-text{
     position: absolute;
@@ -149,14 +150,14 @@ nav{
 .section1-right img{
     width: 600px;
     padding-top: 90px;
-    /* margin-left: 50px; */
+    margin-left: 50px;
 }
 
 .about{
-    margin: 100px 0px;
+    margin: 80px -35px;
     background-color: #e7f5f5;
     /* background: url(/images/Large-Triangles.svg); */
-    padding: 80px 0px;
+    padding: 100px 0px;
 }
 .about-section h2{
     text-align: center;
@@ -190,11 +191,13 @@ nav{
     
 }
 .contact{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .contact-section{
     text-align: center;
 }
+
+
 .contact-section h2{
     font-size: 45px;
     font-family: 'Prata',serif;
@@ -207,8 +210,11 @@ nav{
 .contact-section2{
     display: flex;
     /* justify-content: space-a; */
+    margin: 0 auto;
+    justify-content: center;
 }
-.contact-section2 img{
+
+.contact-section2 img {
     height: 500px;
 }
 .contact-form h3{
@@ -218,13 +224,12 @@ nav{
     padding-bottom: 30px;
 }
 form{
-    /* margin-top: 50px; */
     /* background-color: rgb(216, 211, 211); */
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 20px;
     /* line-height: 90px; */
-    row-gap: 10px;
+    row-gap: 15px;
     font-size: 15px;
 }
 form label{
